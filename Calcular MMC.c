@@ -17,8 +17,6 @@ for (i=1;fat!=0;i++)
     {
         fat = primeiro * i % segundo;
 
-        printf ("[%d] %d\n",i, fat);
-
             if (fat==0)
                 break;
     }

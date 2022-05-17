@@ -5,11 +5,11 @@ int main ()
 
 {
 
-int i, primeiro, segundo, fat;
+long int i, primeiro, segundo, fat;
 printf ("Digite o primeiro número: ");
-scanf ("%d", &primeiro);
+scanf ("%ld", &primeiro);
 printf ("Digite o segundo número: ");
-scanf ("%d", &segundo);
+scanf ("%ld", &segundo);
 
 for (i=1;fat!=0;i++)
 
@@ -22,7 +22,7 @@ for (i=1;fat!=0;i++)
 
     fat = primeiro*i;
 
-    printf ("* MMC * de %d e %d é [%d]", primeiro,segundo,fat);
+    printf ("* MMC * de %ld e %ld é [%ld]", primeiro,segundo,fat);
 
 return 0;
 
